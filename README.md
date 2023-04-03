@@ -1,5 +1,8 @@
 # Deep-Learning-Challenge (Alphabet Soup Charity)
 
+![image](https://user-images.githubusercontent.com/116117065/229650026-f4cd49df-9486-4637-8af5-6b1c5450f06f.png)
+
+
 ## Background
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
@@ -62,6 +65,9 @@ The purpose of the analysis is to predict whether applicants will be successful 
       
       **Optimization 1:**
       
+      ![image](https://user-images.githubusercontent.com/116117065/229650244-7eafdd71-58f4-4e16-9939-121bc538a0fd.png)
+
+      
       * Features used: NAME, APPLICATION_TYPE, CLASSIFICATION
       * hidden layers: 3 LAYERS (with 20, 26 and 3 neurons)
       * Activation Functions: ReLU (first hidden layer), Sigmoid (second & third hidden layer, outer layer)
@@ -79,8 +85,10 @@ The purpose of the analysis is to predict whether applicants will be successful 
       
        **Optimization 2:**
        
+       ![image](https://user-images.githubusercontent.com/116117065/229650351-b175115f-7653-4072-9abc-baa2acd4b7c2.png)
+
        
-       * Features used: NAME, APPLICATION_TYPE, CLASSIFICATION
+      * Features used: NAME, APPLICATION_TYPE, CLASSIFICATION
       * hidden layers: 3 LAYERS (with 100, 50 and 20 neurons)
       * Activation Functions: ReLU (first hidden layer and second layer), Sigmoid (third hidden layer and outer layer)
       * Trainable Parameters: 49,891
@@ -95,6 +103,9 @@ The purpose of the analysis is to predict whether applicants will be successful 
        
        
         **Optimization 3:**
+        
+        ![image](https://user-images.githubusercontent.com/116117065/229650441-e216358d-110a-4804-b08a-2edaf6d42101.png)
+
         
       * Features used: NAME, APPLICATION_TYPE, CLASSIFICATION
       * hidden layers: 3 LAYERS (with 90, 50 and 10 neurons)
